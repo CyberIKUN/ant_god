@@ -1,0 +1,14 @@
+proxy_server:
+  address:                      #代理服务器地址
+  username: ''                  #若需要验证，这里为接收验证的用户
+  password: ''                  #若需要验证，这里为接收验证的用户密码
+chrome_exec_path: 'C:\Program Files\Google\Chrome\Application\chrome.exe' #Chrome执行程序路径
+user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36' #User-Agent
+headless: FALSE                 #是否开启无头模式
+timeout:                        #浏览器关闭时间
+cookies:                        #cookie，可不指定
+worker:                         #需要多少打工仔（协程）
+
+xray_ext:
+  enabled: TRUE                 #是否开启xray扩展
+  xray_path: 'C:\Users\lixuyong\Desktop\HackTool\漏洞扫描器\xray_and_crawlergo\xray_windows_amd64.exe' #xray执行文件路径
